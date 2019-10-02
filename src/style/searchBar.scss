@@ -13,8 +13,12 @@
       height: 70px;
       font-size: 30px;
       transition: all 0.2s ease;
+
       &::placeholder {
         color: $color-gray-two;
+        font-family: "Font Awesome\ 5 Free", "Lato", Arial, Helvittica,
+          sans-serif;
+        font-weight: 600;
       }
 
       &:focus {
