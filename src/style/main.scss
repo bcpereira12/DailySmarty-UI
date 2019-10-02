@@ -2,9 +2,9 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.post-topic {
-  margin: 0 4px;
-}
+// .post-topic {
+//   margin: 0 4px;
+// }
 
 .app-wrapper {
   display: grid;
@@ -33,6 +33,7 @@ $color-gray-three: #d8d8d8;
 @import "./recentPosts";
 @import "./home";
 @import "./results";
+@import "./post";
 
 .no-content {
   color: $color-gray-one;

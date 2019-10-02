@@ -41,6 +41,10 @@
   input {
     height: 70px;
     font-size: 30px;
+    @media screen and (max-width: 600px) {
+      font-size: 23px;
+      height: 59px;
+    }
   }
 }
 
