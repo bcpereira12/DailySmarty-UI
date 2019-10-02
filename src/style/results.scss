@@ -41,11 +41,12 @@
 .post-link {
   display: flex;
   min-height: 70px;
+
   .post-link-box {
     min-width: 70px;
     background-color: $color-gray-three;
     margin-right: 16px;
-    margin-left: 16px;
+    margin-left: 20px;
   }
   .post-link-link a {
     color: $color-gray-one;
