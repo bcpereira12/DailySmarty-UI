@@ -1,7 +1,3 @@
-.post-topic {
-  margin: 0 4px;
-}
-
 body {
   font-family: "Lato", sans-serif;
 }
@@ -9,13 +5,6 @@ body {
 .app-wrapper {
   display: grid;
   justify-content: center;
-}
-
-.home {
-  height: 100vh;
-  width: 66vw;
-  display: grid;
-  align-content: space-around;
 }
 
 .logo-main,
@@ -34,5 +23,8 @@ $color-gray-one: #666666;
 $color-gray-two: #b3b3b3;
 $color-blue-one: #0079ff;
 
+@import "./mixins";
 @import "./searchBar";
 @import "./recentPosts";
+@import "./home";
+@import "./results";
